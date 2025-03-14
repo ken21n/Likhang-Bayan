@@ -161,7 +161,7 @@ let questions = [
             "Sampaguita",
             "Sunflower",
             "Tulips",
-            "Sampaguita"
+            "Orchid"
         ],
         difficulty: "easy"
     },
