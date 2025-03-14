@@ -576,7 +576,7 @@ let filteredQuestions = [];
 let currentQuestionIndex = 0;
 let timerInterval;
 let score = 0;
-let totalQuestions = 10;
+let totalQuestions = 15;
 
 function filterQuestionsByDifficulty(difficulty) {
     filteredQuestions = questions.filter(question => question.difficulty === difficulty);
