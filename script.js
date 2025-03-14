@@ -323,6 +323,70 @@ let questions = [
         difficulty: "medium"
     },
     {
+numb: 11,
+question: "Kilala bilang pinakaunang katutubo ng kapuluan na lumaban sa mga taga-Europa",
+answer: "Lapu-lapu",
+options: [
+"Magellan",
+"Datu Sabtano",
+"Lapu-lapu",
+"Datu Zulu"
+],
+        difficulty: "medium"
+},
+    {
+numb: 12,
+question: "Ano ang itinuturing na pinaunang anyo ng pagsulat sa Pilipinas?",
+answer: "Baybayin",
+options: [
+"Alibata",
+"Baybayin",
+"Morse",
+"Hangul"
+],
+        difficulty: "medium"
+},
+    {
+numb: 13,
+question: "Sino ang kapatid ni Rizal na namatay sa edad na tatlo?",
+answer: "Concepcion Rizal",
+options: [
+"Narcisa Rizal",
+"Concepcion Rizal",
+"Trinidad Rizal",
+"Soledad Rizal"
+ ],
+        difficulty: "medium"
+},
+{
+numb: 14,
+question: "Kaninong obra ang Monumento ni Gat. Andres Bonifacio? Binansagan din siyang 'Pambansang alagad ng sining'.",
+answer: "Guillermo Tolentino",
+    options: [
+"Mike Portes",
+"Francisco Balagtas",
+"Guillermo Tolentino",
+"Carlos Bulosan"
+],
+        difficulty: "medium"
+},
+{
+numb: 15,
+question: "Sino ang nasa 200 peso bill?",
+answer: "Diosdado Macapagal",
+options: [
+"Manuel L. Quezon",
+"Apolinario Mabini",
+"Emilio Aguinaldo",
+"Diosdado P. Macapagal"
+],
+        difficulty: "medium"
+},
+
+
+
+
+    {
         numb: 1,
         question: "Kilala bilang pinakaunang katutubo ng kapuluan na lumaban sa mga taga-Europa",
         answer: "Lapu-lapu",
@@ -446,7 +510,67 @@ let questions = [
         ],
         difficulty: "hard"
     },
+        {
+        numb: 11,
+        question: "Anong taon naganap ang 'Bataan Death March'?",
+        answer: "1942", 
+        options: [
+        "1824", 
+        "1942",
+        "1924", 
+        "1492"
+       ],
+        difficulty: "hard"
+        },
+        {
+            numb: 12,
+            question: "Tuwing kailan ipinagdiriwang ang araw ng kalayaan?", 
+            answer: "June 12",
+            options: [
+            "June 11", 
+            "June 13",
+            "June 22",
+            "June 12"
+            ],
+        difficulty: "hard"
+            }, 
+            {
+                numb: 13,
+                question: "Kailan ginarote ang tatlong paring martyr?", 
+                answer: "Pebrero 17, 1872", 
+                options: [
+                "Pebrero 17, 1872",
+                "Disyembre 30, 1896",
+                "Abril 17, 1942", 
+                "Hunyo 12, 1872"
+                  ],
+        difficulty: "hard"
+                }, {
+                    numb: 14,
+                    question: "Sa anong taon dumating sa dalampasigan ng Pilipinas ang manggagalugad na Portuges na si Ferdinand Magellan?", 
+                    answer: "Marso 16,1521", 
+                    options: [
+                    "Marso 16,1521", 
+                    "Disyembre 17, 1942", 
+                    "Abril 17, 1942", 
+                    "Hunyo 12, 1872"
+                   ],
+        difficulty: "hard"
+                    }, 
+                    {
+                        numb: 15,
+                        question: "Anong taon naganap ang makasaysayang battle of mactan?", 
+                        answer:  "1521",
+                        options: [
+                        "1452",
+                        "1521",
+                        "1252",
+                        "1512"
+                          ],
+        difficulty: "hard"
+                        },       
 ];
+
 
 let filteredQuestions = [];
 let currentQuestionIndex = 0;
