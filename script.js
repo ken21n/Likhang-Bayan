@@ -201,18 +201,7 @@ let questions = [
         ],
         difficulty: "easy"
     },
-    {
-        numb: 15,
-        question: "Sino ang nasa 200 peso bill?",
-        answer: "Diosdado Macapagal",
-        options: [
-            "Manuel L. Quezon",
-            "Apolinario Mabini",
-            "Emilio Aguinaldo",
-            "Diosdado P. Macapagal"
-        ],
-        difficulty: "easy"
-    },
+  
     {
         numb: 1,
         question: "Sino ang nagtatag ng 'La Solidaridad'?",
