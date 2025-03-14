@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Game</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1 class="starting-text">Subukan mo ang larong Pilipino at Matuto!</h1>
+    <div class="container">
+        <button id="startButton" class="start-button">Start Game</button>
+        <div id="difficultySelection" class="difficulty-selection hidden">
+            <h2>Select Difficulty</h2>
+            <button class="difficulty-button easy">Easy</button>
+            <button class="difficulty-button medium">Medium</button>
+            <button class="difficulty-button hard">Hard</button>
+        </div>
+        <div id="rules" class="rules hidden">
+            <h2>Some Rules of this game</h2>
+            <p>1. Meron lamang 15 segundo sa bawat tanong.</p>
+            <p>2. Hindi na mapapalitan ang sagot, once na nakapili na.</p>
+            <p>3. Hindi na makakapili ng sagot kapag naubos na ang oras.</p>
+            <p>4. Makakakuha lamang ng puntos base sa mga tamang sagot.</p>
+            <p>5. Enjoy playing while learning!</p>
+            <button id="continueButton" class="continue-button">Continue</button>
+        </div>
+        <div id="questionnaire" class="questionnaire hidden">
+            <h2 id="question"></h2>
+            <div id="options"></div>
+            <div id="timer" class="timer"></div>
+            <button id="nextButton" class="next-button hidden">Next</button>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
+
